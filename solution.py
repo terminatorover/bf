@@ -43,7 +43,7 @@ for line in input_f.readlines():
 
  
     if ( ("#" not in line ) and ("." not in line)):
-        
+        line.strip()
         N = int(line)
         if (first == 0):
             first +=1 
